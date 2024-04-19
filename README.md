@@ -1,6 +1,6 @@
 # Scan Barcodes
 
-Scan barcodes is a web applications that allows the user scan a variety of barcode formats from their mobile phones or computer.
+Scan barcodes is a simple web applications that allows the user scan a variety of barcode formats from their mobile phones or computer.
 
 ## How To Use
 
