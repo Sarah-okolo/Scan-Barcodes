@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --white: #f5f5ff;
+    --black: #111;
+  }
+  
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--white);
+    color: var(--black);
+  }
+  
+  h1 {
+    padding: 10px;
+    box-shadow: 2px 3px 5px #ccc;
+    width: 100%;
+  }
+  
+  #container {
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    padding: 20px;
+    font-size: 14.5px;
+  }
+  
+  p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  p > span {
+    color: #777;
+    font-size: 12px;
+  }
+  
+  #format-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+    user-select: none;
+  }
+  
+  .format {
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  #scan-btn,
+  #copy-open {
+    padding: 10px;
+    transition: all 0.2s;
+    text-decoration: none;
+    background-color: var(--black);
+    color: #ddd;
+    border-radius: 5px;
+    border: 1px solid var(--black);
+    display:inline;
+  }
+  
+  .format,
+  #scan-btn:hover,
+  #copy-open:hover,
+  #result-container {
+    border: none;
+    background-color: var(--white);
+    box-shadow: 3px 3px 3px #bbb;
+    color: black;
+  }
+  
+  #copy-open {
+    width: 10%;
+    min-width: 70px;
+    margin: 0 auto;
+    font-size: 14.5px
+  }
+  
+  #camera-stream {
+    width: 80vw;
+    max-width: 400px;
+    height: 500px;
+    display: none;
+  }
+  
+  #result-container {
+    max-width: 90vw;
+    display: none;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    overflow: auto;
+  }
+  
+  #result-container > div {
+    display: flex;
+  }
+  
+  #detected-format {
+    margin: 0 15px;
+  }
+  
+  #result {
+    max-width: 90%;
+    margin: 0 15px;
+    word-wrap: break-word;
+    text-align: left;
+  }
+  
+  #err-msg {
+    text-align: center;
+    color: #7a0500;
+    display: none;
+  }

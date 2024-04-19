@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Barcodes</title>
+</head>
+<body>
+<h1>Scan Barcodes</h1>
+
+<div id="container">
+  <h2>Supported Barcode Formats</h2>
+  <p>Below are the supported barcode formats that can be detected. <br> <span>(scan with mobile phone for better experience)</span></p>
+  <div id="format-list-container">
+  </div>
+
+  <a href="#camera-stream" id="scan-btn">Scan Barcode</a>
+
+  <div id="result-container">
+    <div>
+      <b>Format:</b>
+      <p id="detected-format"></p>
+    </div>
+    <div>
+    <b>Content:</b>
+    <p id="result"></p>
+    </div>
+    <button id="copy-open">Copy</button>
+  </div>
+
+  <p id="err-msg"></p>
+
+  <video id="camera-stream" />
+</div>
+
+<noscript>
+  <style>
+    #container {
+      display: none;
+    }
+
+    h2,
+    p {
+      text-align: center;
+      margin: 25px 25px 0;
+    }
+  </style>
+
+  <h2>Scripting Not Supported</h2> <br>
+  <p>This application requires JavaScirpt to run. <a href="https://support.google.com/adsense/answer/12654?hl=en" target="_blank">Enable scripting</a> in your browser or switch to a browser that supports scripting.</p>
+</noscript>
+</body>
+</html>
