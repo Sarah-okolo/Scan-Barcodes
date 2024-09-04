@@ -1,6 +1,8 @@
 # Scan Barcodes
 
-Scan barcodes is a simple web applications that allows the user scan a variety of barcode formats from their mobile phones or computer.
+[Scan Barcodes](https://scan-barcodes.netlify.app/) is a simple web application that allows the user to scan a variety of barcode formats from their mobile phones or computer.
+
+![website preview](https://github.com/user-attachments/assets/de6ea407-bb63-41cf-9b20-38c0f6f58eda)
 
 ## How To Use
 
